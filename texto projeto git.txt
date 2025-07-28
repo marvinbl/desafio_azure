@@ -1,0 +1,36 @@
+Isto é uma documentação instrutora
+Este uma documentação tem como objetivo praticar e aprofundar o uso das ferramentas Azure Speech Studio e Language Studio, focando na análise de fala e linguagem natural. O objetivo é desenvolver habilidades práticas na criação de soluções baseadas em inteligência artificial voltadas para voz e linguagem. O entregável é um repositório organizado contendo anotações e insights adquiridos durante a prática, servindo como material de apoio para estudos e futuras implementações.
+parte relevante:
+1. praticar e aprofundar o uso das ferramentas Azure Speech Studio e Language Studio, focando na análise de fala e linguagem natural
+2. repositório organizado contendo anotações e insights adquiridos durante a prática
+
+'Orientações'
+ETAPAS
+1. criar conta microsoft
+2. entrar em azure
+3. necessário informar endereço, numero celular e cartão de crédito (salientar que não será cobrado/estorno automático/crédito de 200 doláres)
+4. o acesso gratuito ira durar 12 meses (antes será informado por email)
+5. então acesse (https://portal.azure.com/)
+6. pesquise "language" e deve surgir em "serviços". clique.
+7. em baixo selecione a opção "criar linguagem"
+8. confirme em baixo, e deve ir a opção "criar idioma"
+9. em grupo de recursos insira um nome qualquer. e confirme "uso de IA sustentável" 
+10. em instância insira região brazil, nome deve ter sequencia letra - hífen e numerica, e preço o teste grátis
+11. clique em examinar-criar
+12. deve estar tudo certo!
+
+Agora podemos resumir, identificar sentimentos, extrair insights etc.
+Para tal
+1. acesse (https://language.cognitive.azure.com)
+2. vá no seu perfil e clique em inserir resource
+3. teste algumas das opções gratuitas. escreva e hit e run!
+
+Já Speech Service.
+Repite o mesmo processo de language
+0. e deve estar tudo ok!
+Por isso acesse (https://speech.microsoft.com/portal)
+1. faça login
+2. provavelmente vai chegar a esse link (https://ai.azure.com/explore/models/aiservices/Azure-AI-Speech) caso não, clique e acesse.
+3. agora teste as opções!
+4. no meu caso testei a "transcrição em tempo real", é gratuito por 1 minuto.
+5. 1 minuto de transcrição gerou o resultado "E aí vocês já imaginam o que aconteceu, né? É, em 64 acontece o golpe civil militar e esse 3 retiros também do fantasia eles feita e que ele vai falar um pouco do sentimento deste momento. Em poucos minutos o meu avião decolava rumo ao pacífico. O Furtado vai constar o primeiro ato institucional da ditadura estabelecida no ayu. Então ele vai ser convidado, né? A seguir a cheirar do país, então, em poucos minutos, o meu avião decolava rumo ao pacífico. Sentir a certa angústia ao cortar o vínculo com o mundo que por tanto tempo dará sentido à minha vida. Dedicar a anos a organizar a minha fantasia, na Esperança de 1 dia transformála em instrumentos de ação a serviço do meu pobre e desvali do nordeste. Agora esta fantasia estava desfeita. Desmoronara como uma Estrela quis dizer."
